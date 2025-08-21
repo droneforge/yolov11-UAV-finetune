@@ -74,6 +74,33 @@ note = { visited on 2025-08-16 },
 
 █████████████████████████████████████████
 
+█████████████████████████████████████████
+
+```
+
+## █ MACBOOK DEPLOYMENT
+
+### Quick Start to setup the venv and requirements 
+```bash
+# Setup (one-time)
+chmod +x macbook-init-setup.sh macbook-launcher.sh
+./macbook-init-setup.sh
+
+# Run operations with a TUI 
+./macbook-launcher.sh
+
+Scripts
+
+macbook-init-setup.sh - Environment setup with Apple Silicon optimizations
+macbook-launcher.sh - TUI operations center (video inference, synthetic data, batch processing)
+
+Features
+
+Python 3.13+ compatibility with M1/M2/M3 optimization
+Synthetic data generation with YOLO annotations
+Real-time inference (~30 FPS on Apple Silicon)
+Project management and batch processing
+```
 ```
 ███████████████████████████████████████████████████
 █ OPEN SOURCE UAV DETECTION FOR ALL              █
